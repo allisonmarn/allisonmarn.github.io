@@ -7,18 +7,20 @@
 
 	</head>
 	<body>
-	<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="about.html">About Me</a></li>
-  <li><a href="contact.html">Contact</a></li>
-
+<ul class="menu">
+  <li class="menuli"><a href="index.html">Home</a></li>
+  <li class="menuli"><a href="about.html">About Me</a></li>
+  <li class="menuli"><a href="contact.html">Contact</a></li>
 </ul>
+
 <center>
 <br>
 <br>
-<p class="contact"><a onclick="openMail()">ammarn@bu.edu</a></p>
-<p class="contact"><a onclick="openLinked()">Linkedin</a></p>
-
+<br>
+<ul class="contact">
+<li class="contli"><a onclick="openMail()">ammarn [at] bu.edu</a></li>
+<li class="contli"><a onclick="openLinked()">Linkedin</a></li>
+</ul>
 </center>	
 
 
@@ -32,6 +34,15 @@ function openMail() {
   window.open("mailto:ammarn@bu.edu");
 }
 </script>
-
+<script>
+function openSchol() {
+  window.open("https://scholar.google.com/citations?user=NPyzi08AAAAJ&hl=en");
+}
+</script>
+<script>
+function openGit() {
+  window.open("https://github.com/allisonmarn");
+}
+</script>
 	</body>
 </html>

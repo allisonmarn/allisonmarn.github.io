@@ -3,7 +3,6 @@ body, html {
 	font-family: 'Lato', sans-serif;
 }
 
-
 .circle-image {
     width: 200px;
     height: 200px;
@@ -12,7 +11,7 @@ body, html {
     border-radius: 50%;
 }
 
-ul {
+.menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,25 +32,44 @@ li a:hover {
   color: white;
 }
 
-li {
+.menuli{
 	display: inline;
 	float: left;
-	
 }
 
 .aboutme{font-size:18px; 
-margin: 20px 100px 10px 100px;
+margin: 20px 100px 20px 100px;
 }
+
+.press{font-size:18px; 
+margin: 40px 100px 20px 100px;
+}
+
+.pressli{
+	display: inline;
+	float: left;
+
+}
+
+.contli{
+	display: inline;
+	float: left;
+}
+
 
 .contact:hover {
   background-color: #555;
   color: white;
+  margin: 10px 10px 10px 10px;
 }
 
 .contact{
   cursor: pointer;
   font-size:18px; 
+  margin: 10px 10px 10px 10px;
 }
+
+
 
 /* Phone CSS */
 @media only screen 
@@ -59,9 +77,6 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : portrait){
   li a{
-    font-size: 30px;
-  }
-  .banner-image {
-    height: 47px;
+    font-size: 100px;
   }
 }
