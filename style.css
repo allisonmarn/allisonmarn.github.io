@@ -37,11 +37,11 @@ li a:hover {
 	float: left;
 }
 
-.aboutme{font-size:18px; 
+.aboutme{
 margin: 20px 100px 20px 100px;
 }
 
-.press{font-size:18px; 
+.press{
 margin: 40px 100px 20px 100px;
 }
 
@@ -77,6 +77,9 @@ and (min-device-width : 320px)
 and (max-device-width : 568px) 
 and (orientation : portrait){
   li a{
+    font-size: 100px;
+  }
+  p {
     font-size: 100px;
   }
 }
