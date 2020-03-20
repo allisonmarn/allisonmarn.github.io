@@ -3,10 +3,18 @@ body, html {
 	font-family: 'Lato', sans-serif;
 }
 
+div {
+  clear: left;
+}
+
+div.ab {
+  clear: left;
+  padding: 20px 60px;
+}
+
 .circle-image {
     width: 200px;
     height: 200px;
-    position: relative;
     overflow: hidden;
     border-radius: 50%;
 }
@@ -38,7 +46,6 @@ li a:hover {
 }
 
 .aboutme{
-margin: 20px 100px 20px 100px;
 }
 
 .press{
@@ -48,7 +55,6 @@ margin: 40px 100px 20px 100px;
 .pressli{
 	display: inline;
 	float: left;
-
 }
 
 .contli{
