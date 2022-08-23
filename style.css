@@ -59,7 +59,7 @@ margin: 40px 100px 20px 100px;
 
 .contli{
 	display: inline;
-	float: left;
+	  font-size:18px; 
 }
 
 
@@ -70,6 +70,18 @@ margin: 40px 100px 20px 100px;
 }
 
 .contact{
+  cursor: pointer;
+  font-size:18px; 
+  margin: 10px 10px 10px 10px;
+}
+
+.email:hover {
+  background-color: #555;
+  color: white;
+  margin: 10px 10px 10px 10px;
+}
+
+.email{
   cursor: pointer;
   font-size:18px; 
   margin: 10px 10px 10px 10px;
